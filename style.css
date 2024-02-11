@@ -1,0 +1,138 @@
+*{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+margin:0;
+
+}
+
+.navbar{
+    display:flex;
+    flex-direction:row;
+
+    gap:40rem;
+    height:80px;
+    padding:10px;
+    width:95%;
+    margin:0 auto;
+}
+header{
+    margin:0 auto;
+    width:100%;
+    padding:20px;
+    min-height:100%;
+}
+.right-nav{
+    
+}
+.right{
+    display:flex;
+    flex-direction:row;
+    gap:2rem;
+}
+.menu{
+    text-decoration:none;
+    color: rgb(255, 84, 0);
+font-family: Mulish;
+font-size: 18px;
+font-weight: 700;
+
+text-align: center;
+
+}
+ .raiment{
+  max-width:50%;
+ 
+    /* Vector */
+
+
+min-height:100%;
+/* Hero Travel */
+
+width: 200px;
+height: 45px;
+
+display: block;
+margin: 0 auto;
+object-fit:cover;
+}
+.logo{
+    width:20%;
+}
+/*front header*/
+.main-content{
+
+
+max-width: 96%;
+min-height: 600px;
+background-image: url("Images/fashion banner-01_cleanup.jpg");
+background-repeat: no-repeat;
+padding:10px;
+background-color: white;
+
+background-size: auto 100%;
+background-repeat: no-repeat;
+border-radius:40px;
+
+}
+.he{
+    font-weight:700;
+    font-size:20px;
+color:white;
+}
+.find{
+    /* Rectangle 3 */
+position: absolute;
+width: 200px;
+height: 80px;
+
+}
+.finds{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:30px;
+}
+.head{
+    color: rgb(255, 255, 255);
+font-family: Mulish;
+font-size: 64px;
+font-weight: 800;
+line-height: 80px;
+letter-spacing: 0%;
+text-align: center;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:108px 287px 20px 220px;
+margin:10px;
+}
+.descrip{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+padding:10px;
+}
+.cloth{
+    /* Rectangle 3 */
+
+display:flex;
+align-items:center;
+justify-content:center;
+padding:30px;
+}
+.find{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
