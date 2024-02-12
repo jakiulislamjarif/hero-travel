@@ -6,7 +6,7 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Work Sans', sans-serif;
 margin:0;
-
+max-width:1240px;
 }
 
 .navbar{
@@ -44,7 +44,7 @@ text-align: center;
 
 }
  .raiment{
-  max-width:50%;
+  min-width:100%;
  
     /* Vector */
 
@@ -66,12 +66,12 @@ object-fit:cover;
 .main-content{
 
 
-max-width: 96%;
+    min-width:1200px;
 min-height: 600px;
-background-image: url("Images/fashion banner-01_cleanup.jpg");
+background-image: url("Images/20181022_100631k.jpg");
 background-repeat: no-repeat;
 padding:10px;
-background-color: white;
+
 
 background-size: auto 100%;
 background-repeat: no-repeat;
@@ -81,7 +81,7 @@ border-radius:40px;
 .he{
     font-weight:700;
     font-size:20px;
-color:white;
+color:black;
 }
 .find{
     /* Rectangle 3 */
@@ -97,7 +97,7 @@ height: 80px;
     padding:30px;
 }
 .head{
-    color: rgb(255, 255, 255);
+    color: black;
 font-family: Mulish;
 font-size: 64px;
 font-weight: 800;
@@ -114,10 +114,10 @@ margin:10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(255, 255, 255);
+    color: black;
 font-family: Mulish;
 font-size: 16px;
-font-weight: 400;
+font-weight: 700;
 line-height: 26px;
 letter-spacing: 0%;
 text-align: center;
@@ -135,4 +135,14 @@ padding:30px;
     display:flex;
     align-items:center;
     justify-content:center;
+}
+
+
+@media screen and (max-width: 600px){
+.navbar,.logo,.right-nav{
+    display:flex;
+    flex-direction: row;
+}
+
+
 }
