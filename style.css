@@ -9,7 +9,9 @@ margin:0;
 max-width:1240px;
 padding:5px;
 margin:0 auto;
+
 }
+
 
 .navbar{
     display:flex;
@@ -20,6 +22,7 @@ margin:0 auto;
     padding:5px;
     width:95%;
     margin:0 auto;
+    
 }
 header{
     margin:0 auto;
@@ -46,7 +49,8 @@ text-align: center;
 
 }
  .raiment{
-  min-width:100%;
+    max-width:50px;
+    max-height:20px;
  
     /* Vector */
 
@@ -221,6 +225,36 @@ padding-top:10px;
 margin-bottom:30px;
 
 }
+.news{
+    display:flex;
+    flex-direction: row;
+    min-width:1200px;
+    min-height:300px;
+}
+.subs{
+    /* Rectangle 3 */
+
+width: 393px;
+height: 52px;
+border-radius: 8px;
+
+background: rgb(255, 84, 0);
+color:white;
+font-size:20px;
+font-weight:600;
+}
+.s{
+    /* Group 7 */
+
+width: 90px;
+height: 25px;
+border-radius: 8px;
+color:white;
+background: rgb(255, 84, 0);
+font-size:16px;
+font-weight:400;
+
+}
 .cloths-div{
     display:grid;
     grid-template-columns:repeat(2,1fr);
@@ -266,6 +300,152 @@ height: 30px;
     display:grid;
     grid-template-columns:repeat(3,1fr);
 }
+.header
+.products-dis{
+    display:flex;
+    flex-direction: column;
+}
+.disci{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color: rgb(19, 19, 24);
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+/* Deals & Discounts */
+
+width: 351px;
+height: 50px;
+
+}
+.dis-des-ci{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color: rgba(19, 19, 24, 0.7);
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    /* Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque. */
+margin-top:40px;
+width: 643px;
+height: 52px;
+margin-bottom:60px;
+
+
+}
+.header-discount{
+    /* Group 18 */
+
+width: 643px;
+height: 126px;
+margin-top:150px;
+}
+.shrt,.pant,.jacketses{
+    max-width:800px;
+    max-height:500px;
+    border-radius:30px;
+}
+.product{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+}   
+.des-img{
+    max-width:800px;
+    max-height:500px;
+}
+.des-img{
+    
+    padding:50px;
+    max-width:600px;
+    border-radius:30px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.shop-desi{
+    display:flex;
+    flex-wrap: wrap;
+    margin:20px 0 20px 0;
+
+}
+.bu{
+    border-radius: 8px;
+
+background: rgb(255, 84, 0);
+/* Rectangle 3 */
+
+width: 150px;
+height: 52px;
+color:white;
+font-weight:600;
+font-size:20px;
+box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.ri{
+    max-width:150px;
+    max-height:200px;
+}
+.desii{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.lo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.connect{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap:5px;
+  
+    /* Rectangle 10 */
+
+}
+.communication{
+    width: 1440px;
+height: 502px;
+background-color: black;
+color:white;
+border-radius:30px;
+}
+.foo{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding-top:80px;
+}
+.left{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    border-radius:20px;
+}
+
+.visi{
+    border-radius:20px;
+}
+.unique,.custom,.sustainable{
+    border-radius:20px;
+}
+.jacket,.shacket,.long-jacket,.evening-dress,.women,.women-dress,.refashion{
+    border-radius:30px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
