@@ -7,6 +7,8 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Work Sans', sans-serif;
 margin:0;
 max-width:1240px;
+padding:5px;
+margin:0 auto;
 }
 
 .navbar{
@@ -15,7 +17,7 @@ max-width:1240px;
 
     gap:40rem;
     height:80px;
-    padding:10px;
+    padding:5px;
     width:95%;
     margin:0 auto;
 }
@@ -136,12 +138,141 @@ padding:30px;
     align-items:center;
     justify-content:center;
 }
-
-
-@media screen and (max-width: 600px){
-.navbar,.logo,.right-nav{
+.main-part{
     display:flex;
     flex-direction: row;
+    
+}
+.first-left{
+    max-width:100%;
+    max-height:100%;
+
+}
+.main-head{
+    color: rgb(19, 19, 24);
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+
+    text-align: center;
+    /* Our Popular Tours */
+
+width: 355px;
+height: 50px;
+margin-bottom:10px;
+}
+.products{
+    color: rgba(19, 19, 24, 0.7);
+font-family: Mulish;
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+
+text-align: left;
+padding:40px;
+margin-top:100px;
+}
+.products-des{
+    color: rgba(19, 19, 24, 0.7);
+font-family: Mulish;
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+padding:10px;
+margin-top:100px;
+}
+.another{
+    color: rgba(19, 19, 24, 0.7);
+font-family: Mulish;
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-top:100px;
+}
+.read{
+    /* Rectangle 3 */
+position: absolute;
+width: 174px;
+height: 52px;
+margin-top:140px;
+border-radius: 8px;
+
+background: rgb(255, 84, 0);
+}
+.third-header{
+    color: rgb(19, 19, 24);
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+/* Choose Your Destination */
+
+width: 478px;
+height: 50px;
+margin-top:20px;
+padding-top:10px;
+margin-bottom:30px;
+
+}
+.cloths-div{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    margin-top:80px;
+    margin:0 auto;
+}
+.third-main{
+    max-width:1200px;
+}
+.header-fourth{
+    color: rgb(19, 19, 24);
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+/* Why Choose Us */
+
+width: 307px;
+height: 50px;
+margin:40px 0px 40px 500px;
+}
+.unique,.custom,.sustainable{
+  width:400px;
+  
+}
+.logo-des{
+    color: rgb(19, 19, 24);
+font-family: Mulish;
+font-size: 24px;
+font-weight: 800;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+/* Handpicked Hotels */
+
+width: 221px;
+height: 30px;
+
+}
+.fourth-contianer{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+}
+
+
+
+@media screen and (max-width:600px){
+.navbar,.logo,.right-nav{
+    display:flex;
+    flex-direction: column;
 }
 
 
